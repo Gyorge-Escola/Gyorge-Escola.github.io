@@ -27,6 +27,7 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
     background-color: rgb(28, 126, 184);
     border-radius: 50px;
+    padding: 2%;
 }
 
 .tumbs{
