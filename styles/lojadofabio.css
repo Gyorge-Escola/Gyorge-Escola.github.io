@@ -90,3 +90,8 @@ bodys{
     }
 
     /* Produtos */
+
+    #Homens{
+        display: flex;
+        flex-direction: row;
+    }
