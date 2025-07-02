@@ -90,7 +90,6 @@ bodys{
     }
 
     /* Produtos */
-
     .Produtos{
         display: flex;
         flex-direction: row;
@@ -98,7 +97,10 @@ bodys{
         align-items: center;
         margin: 2%;
     }
-
     .itens{
         margin: 5%;
+    }
+    .imgsprodutos{
+        width: 30%;
+        height: auto;
     }
