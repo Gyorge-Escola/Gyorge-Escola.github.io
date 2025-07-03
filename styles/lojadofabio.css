@@ -101,8 +101,6 @@ bodys{
         border: 2px solid black;
         width: 12%;
         height: auto;
-        align-items: center;
-        justify-content: center;
     }
     .itens{
         margin: 5%;
