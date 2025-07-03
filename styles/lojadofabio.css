@@ -97,6 +97,11 @@ bodys{
         justify-content: center;
         
     }
+    #seta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     #setap{
         border: 2px solid black;
         width: 30px;
