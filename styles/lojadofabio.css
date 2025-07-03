@@ -100,7 +100,8 @@ bodys{
     #seta{
         border: 2px solid black;
         width: 12%;
-        height: auto;
+        height: 100px;
+        margin: 100px;
     }
     .itens{
         margin: 5%;
