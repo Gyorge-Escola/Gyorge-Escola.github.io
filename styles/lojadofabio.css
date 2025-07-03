@@ -96,6 +96,7 @@ bodys{
         justify-content: center;
         align-items: center;
         margin: 2%;
+        text-align: center;
     }
     .itens{
         margin: 5%;
@@ -103,4 +104,7 @@ bodys{
     .imgsprodutos{
         width: 30%;
         height: auto;
+    }
+    #Produtos{
+        text-align: center;
     }
