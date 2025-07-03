@@ -105,7 +105,8 @@ bodys{
     }
     #setap{
         border: 2px solid rgb(92, 92, 92);
-        font-size: 10%;
+        font-size: 150%;
+        padding: 2%;
     }
     .itens{
         margin: 5%;
