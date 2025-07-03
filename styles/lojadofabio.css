@@ -101,6 +101,7 @@ bodys{
         display: flex;
         align-items: center;
         justify-content: center;
+        color: black;
     }
     #setap{
         border: 2px solid black;
