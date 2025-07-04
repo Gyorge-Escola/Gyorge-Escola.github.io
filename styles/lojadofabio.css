@@ -121,3 +121,14 @@ bodys{
     #Produtos{
         text-align: center;
     }
+
+    /* capafinal */
+    #capafinal{
+        margin-top: 2%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        padding-bottom: 2%;
+        border-bottom: 3px dotted #eee;
+    }
