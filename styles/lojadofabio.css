@@ -95,6 +95,7 @@ bodys{
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
         justify-content: center;
+        border-bottom: 3px dotted #eee;
         
     }
     #seta{
