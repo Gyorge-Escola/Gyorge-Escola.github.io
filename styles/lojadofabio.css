@@ -37,6 +37,7 @@ bodys{
         flex-direction: row;
         color: white;
         gap: 1%;
+        padding-bottom: 2%;
         border-bottom: 3px dotted #eee;
     }
     button{
