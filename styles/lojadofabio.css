@@ -131,7 +131,9 @@ bodys{
         gap: 1%;
         padding-bottom: 2%;
         border-bottom: 3px dotted #eee;
+        color: white;
     }
     #textofinal{
         padding: 3%;
+        color: black;
     }
