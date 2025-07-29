@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Seta as configurações do git
+gpg Salvaconfig/.gitconfig.gpg
+gpg Salvaconfig/.git-credentials.gpg
+
+mv Salvaconfig/.gitconfig ~/
+mv Salvaconfig/.git-credentials ~/
+
 # Ativa salvamento de credenciais
 git config --global credential.helper store
 
