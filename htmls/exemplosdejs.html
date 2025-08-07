@@ -14,8 +14,10 @@
         <button onclick="operacoes()">Operações diversas</button>
         <button onclick="imc()">Calcular IMC</button>
     </div>
+    <br>
     <button onclick="limpa()">Limpar resultado</button>
-    <h3 id="resultado">Seu resultado aparecera aqui!</h3>
+    <br>
+    <h3 id="resultado">Seu resultado aparecerá aqui!</h3>
     <script>
         const resultadohtml = document.getElementById("resultado")
         function soma(){
@@ -41,7 +43,7 @@
             resultadohtml.innerText = resultado;
         }
         function limpa(){
-            resultadohtml.innerText = "Seu resultado aparecera aqui!";
+            resultadohtml.innerText = "Seu resultado aparecerá aqui!";
         }
     </script>
 </body>
