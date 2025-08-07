@@ -26,10 +26,13 @@
             let num2 = prompt("Digite o segundo número para calcular!");
             let operador = prompt("Digite um operador: +, -, * ou /");
             let resultado = eval(num1 + operador + num2);
-            alert("O resultado da some é " + resultado);
+            alert("O resultado da operação é " + resultado);
         }
         function imc() {
-
+            let kg = prompt("Digite sua massa em Kg");
+            let altura = prompt("Digite sua altura em M");
+            let resultado = kg / (altura**2);
+            alert("O seu IMC é " + resultado);
         }
     </script>
 </body>
