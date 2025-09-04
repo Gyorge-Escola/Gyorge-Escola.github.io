@@ -14,7 +14,7 @@ function Versin() {
 }
 
 function Check() {
-    let idade = prompt
+    let idade = prompt("Qual é sua idade")
 }
 
 function ParImpar() {
