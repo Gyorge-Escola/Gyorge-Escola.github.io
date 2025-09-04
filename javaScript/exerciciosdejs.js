@@ -15,10 +15,15 @@ function Versin() {
 
 function Check() {
     let idade = prompt("Qual é sua idade")
+    if (idade>=18){
+        alert("Vote!")
+    }else{
+        alert("Você é censurado!")
+    }
 }
 
 function ParImpar() {
-    // Função vazia
+    
 }
 
 function Desc() {
