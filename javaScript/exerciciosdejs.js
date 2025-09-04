@@ -2,19 +2,19 @@ function Versin() {
     let num = prompt("Digite um numero")
     switch (num) {
         case num=0:
-            console.log("Seu número é 0")
+            alert("Seu número é 0")
             break
         case num<0:
-            console.log("Seu número é menor que 0")
+            alert("Seu número é menor que 0")
             break
         case num>0:
-            console.log("Seu número é maior que 0")
+            alert("Seu número é maior que 0")
         break
     }
 }
 
 function Check() {
-    // Função vazia
+    let idade = prompt
 }
 
 function ParImpar() {
