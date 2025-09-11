@@ -74,7 +74,20 @@ function Login() {
 }
 
 function Faixa() {
-    // Função vazia
+    let num = parseFloat(prompt("Digite sua idade!"));
+    switch (num) { 
+        case (num >= 7):
+            alert("Aprovado!");
+            break;
+        case (num < 7 && num >= 5):
+            alert("Faça recuperação!");
+            break;
+        case (num < 5):
+            alert("Reprovado! Vagabundo!");
+            break;
+        default:
+            alert("Valor inválido");
+    }
 }
 
 function Semana() {
