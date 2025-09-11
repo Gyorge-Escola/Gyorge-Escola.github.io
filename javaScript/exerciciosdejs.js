@@ -93,14 +93,20 @@ function Faixa() {
 function Semana() {
     let num = parseFloat(prompt("Digite um número"));
     switch (num) { 
-        case (num < 12):
-            alert("Criança!");
+        case 1:
+            alert("Domingo");
             break;
-        case (num >= 12 && num <= 17):
-            alert("Adolecente!");
+        case 2:
+            alert("Segunda");
             break;
-        case (num >= 18 && num < 59):
-            alert("Adulto!");
+        case 3:
+            alert("Terça");
+            break;
+        case 4:
+            alert("Quarta");
+            break;
+        case 5:
+            alert("Quinta");
             break;
         default:
             alert("Idoso!");
