@@ -115,6 +115,6 @@ function Semana() {
             alert("Sabádo");
             break;
         default:
-            alert("Dia inválido! Setima-feira");
+            alert("Dia inválido! Oitima-feira");
     }
 }
