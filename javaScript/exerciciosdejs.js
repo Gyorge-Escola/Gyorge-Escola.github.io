@@ -68,7 +68,7 @@ function Numaior() {
 }
 
 function Login() {
-    // Função vazia
+    let user = prompt("Digite seu usuário")
 }
 
 function Faixa() {
