@@ -82,7 +82,7 @@ function Faixa() {
         case (num >= 12 && num <= 17):
             alert("Adolecente!");
             break;
-        case (num > 18 && num < 59):
+        case (num >= 18 && num < 59):
             alert("Adulto!");
             break;
         default:
@@ -91,5 +91,18 @@ function Faixa() {
 }
 
 function Semana() {
-    // Função vazia
+    let num = parseFloat(prompt("Digite um número"));
+    switch (num) { 
+        case (num < 12):
+            alert("Criança!");
+            break;
+        case (num >= 12 && num <= 17):
+            alert("Adolecente!");
+            break;
+        case (num >= 18 && num < 59):
+            alert("Adulto!");
+            break;
+        default:
+            alert("Idoso!");
+    }
 }
