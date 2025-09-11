@@ -1,16 +1,19 @@
 function Versin() {
-    let num = prompt("Digite um numero")
-    switch (num) {
-        case num=0:
-            alert("Seu número é 0")
-            break
-        case num<0:
-            alert("Seu número é menor que 0")
-            break
-        case num>0:
-            alert("Seu número é maior que 0")
-        break
+    let num = parseFloat(prompt("Digite um numero"));
+    switch (true) { 
+        case (num === 0):
+            alert("Seu número é 0");
+            break;
+        case (num < 0):
+            alert("Seu número é menor que 0");
+            break;
+        case (num > 0):
+            alert("Seu número é maior que 0");
+            break;
+        default:
+            alert("Valor inválido");
     }
+    
 }
 
 function Check() {
@@ -23,15 +26,39 @@ function Check() {
 }
 
 function ParImpar() {
-    
+    let num = parseFloat(prompt("Digite um numero"));
+    if ((num % 2) == 0) {
+        alert("Número par")
+    }else{
+        alert("Número impar")
+    }
 }
 
 function Desc() {
-    // Função vazia
+    let num = parseFloat(prompt("Qual o valor da compra"));
+    if (num <= 100){
+        let rest = num - num*0.1
+        alert(rest)
+    }else{
+        alert("Sem desconto!")
+    }
 }
 
 function Nota() {
-    // Função vazia
+    let num = parseFloat(prompt("Digite sua nota"));
+    switch (true) { 
+        case (num >= 7):
+            alert("Aprovado!");
+            break;
+        case (num < 7 && num >= 5):
+            alert("Faça recuperação!");
+            break;
+        case (num < 5):
+            alert("Reprovado! Vagabundo!");
+            break;
+        default:
+            alert("Valor inválido");
+    }
 }
 
 function Numaior() {
