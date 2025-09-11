@@ -64,7 +64,7 @@ function Nota() {
 function Numaior() {
     let num = parseFloat(prompt("Digite seu 1° número"));
     let num2 = parseFloat(prompt("Digite seu 2° número"));
-    num < num2 ? alert(`Seu ${num} número é menor que o ${num2}`) : alert(`Seu ${num2} número é menor que o ${num}`);
+    num < num2 ? alert(`Seu ${num} é menor que ${num2}`) : alert(`Seu ${num2} é menor que ${num}`);
 }
 
 function Login() {
