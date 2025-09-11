@@ -79,14 +79,14 @@ function Faixa() {
         case (num < 12):
             alert("Criança!");
             break;
-        case (num >= 12 && num < 17):
+        case (num >= 12 && num <= 17):
             alert("Adolecente!");
             break;
-        case (num < 5):
-            alert("Reprovado! Vagabundo!");
+        case (num > 18 && num < 59):
+            alert("Adulto!");
             break;
         default:
-            alert("Valor inválido");
+            alert("Idoso!");
     }
 }
 
