@@ -76,11 +76,11 @@ function Login() {
 function Faixa() {
     let num = parseFloat(prompt("Digite sua idade!"));
     switch (true) { 
-        case (num >= 7):
-            alert("Aprovado!");
+        case (num < 12):
+            alert("Criança!");
             break;
-        case (num < 7 && num >= 5):
-            alert("Faça recuperação!");
+        case (num >= 12 && num < 17):
+            alert("Adolecente!");
             break;
         case (num < 5):
             alert("Reprovado! Vagabundo!");
