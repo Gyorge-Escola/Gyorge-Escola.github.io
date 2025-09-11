@@ -108,7 +108,13 @@ function Semana() {
         case 5:
             alert("Quinta");
             break;
+        case 6:
+            alert("Sexta");
+            break;
+        case 7:
+            alert("Sabádo");
+            break;
         default:
-            alert("Idoso!");
+            alert("Dia inválido! Setima-feira");
     }
 }
