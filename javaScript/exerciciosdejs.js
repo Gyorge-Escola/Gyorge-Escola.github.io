@@ -62,7 +62,8 @@ function Nota() {
 }
 
 function Numaior() {
-    // Função vazia
+    let num = parseFloat(prompt("Digite seu 1° número"));
+    let num1 = parseFloat(prompt("Digite seu 2° número"));
 }
 
 function Login() {
