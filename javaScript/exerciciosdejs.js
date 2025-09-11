@@ -69,6 +69,8 @@ function Numaior() {
 
 function Login() {
     let user = prompt("Digite seu usuário")
+    let senha = prompt("Digite sua senha")
+    user == "admin" && senha == "1234" ? alert("Acesso permitido!") : alert("Acesso negado!")
 }
 
 function Faixa() {
