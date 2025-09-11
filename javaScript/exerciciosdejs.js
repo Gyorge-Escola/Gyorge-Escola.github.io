@@ -75,7 +75,7 @@ function Login() {
 
 function Faixa() {
     let num = parseFloat(prompt("Digite sua idade!"));
-    switch (num) { 
+    switch (true) { 
         case (num >= 7):
             alert("Aprovado!");
             break;
