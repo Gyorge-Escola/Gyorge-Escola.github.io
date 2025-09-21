@@ -61,11 +61,11 @@ header{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    transition: all 0.3s ;
+    transition: background-color 0.3s ;
 }
 
 .conteudo:hover{
-    margin: -5%;
+    margin-left: -5%;
     width: 110%;
     height: 110%;
     display: flex;
@@ -75,7 +75,7 @@ header{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    transition: all 0.3s ;
+    transition: background-color 0.3s ;
 }
 
 img{
