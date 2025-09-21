@@ -6,6 +6,7 @@
     --texto: rgb(255, 255, 255);
     --caixas: rgb(112, 137, 147);
     --titulo: rgb(25, 24, 59);
+    --subtitulo: rgb(231, 242, 239);
 }
 
 .archivo-black-regular {
@@ -26,7 +27,7 @@ body{
 header{
     text-align: center;
     font-weight: bold;
-    background-color: var(--titulo);
+    background-color: var(--corquarta);
     padding: 2%;
     font-size: 190%;
 }
@@ -35,5 +36,5 @@ header{
     margin: 5%;
     justify-items: center;
     align-items: center;
-    color: black;
+    color: var(--subtitulo);
 }
