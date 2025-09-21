@@ -73,7 +73,7 @@ header{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    z-index: 100;
+    transition: all 0.3s ;
 }
 
 img{
