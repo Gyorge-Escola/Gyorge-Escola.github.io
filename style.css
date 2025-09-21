@@ -5,6 +5,7 @@
     --corquarta: rgb(231, 242, 239);
     --texto: rgb(255, 255, 255);
     --caixas: rgb(112, 137, 147);
+    --titulo: rgb(25, 24, 59);
 }
 
 .archivo-black-regular {
@@ -19,13 +20,13 @@ body{
     margin: 0;
     color: var(--texto);
     background-color: var(--corquarta);
+    font-family: "Delius", cursive;
 }
 
 header{
     text-align: center;
-    font-family: "Delius", cursive;
     font-weight: bold;
-    background-color: rgb(25, 24, 59);
+    background-color: var(--titulo);
     padding: 2%;
     font-size: 190%;
 }
