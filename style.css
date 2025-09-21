@@ -1,6 +1,8 @@
 :root {
     --corprincipal: rgb(25, 24, 59);
-    --corsecundaria: rgb(112, 137, 147)
+    --corsecundaria: rgb(112, 137, 147);
+    --corterceira: rgb(161, 194, 189);
+    --corqquarta: rgb(231, 242, 239);
 }
 
 body{
