@@ -2,7 +2,7 @@
     --corprincipal: rgb(25, 24, 59);
     --corsecundaria: rgb(112, 137, 147);
     --corterceira: rgb(161, 194, 189);
-    --corqquarta: rgb(231, 242, 239);
+    --corquarta: rgb(231, 242, 239);
     --texto: rgb(255, 255, 255);
     --caixas: rgb(112, 137, 147);
 }
@@ -18,14 +18,14 @@ body{
     padding: 0;
     margin: 0;
     color: var(--texto);
+    background-color: var(--corquarta);
 }
 
 header{
-    align-items: center;
-    justify-items: center;
+    text-align: center;
     font-family: "Delius", cursive;
     font-weight: bold;
     background-color: rgb(25, 24, 59);
-    padding: 1%;
+    padding: 2%;
     font-size: 190%;
 }
