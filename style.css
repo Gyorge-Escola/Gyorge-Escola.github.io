@@ -1,8 +1,12 @@
+:root {
+    
+}
+
 body{
     padding: 0;
     margin: 0;
 }
 
 header{
-    background-color: black;
+    background-color: rgb(25, 24, 59);
 }
