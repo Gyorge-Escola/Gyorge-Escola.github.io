@@ -75,7 +75,7 @@ header{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    transition: background-color width 0.3s ;
+    transition: background-color 1s ;
 }
 
 img{
