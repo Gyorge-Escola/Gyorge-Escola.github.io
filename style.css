@@ -36,6 +36,7 @@ header{
     margin: 5%;
     justify-items: center;
     align-items: center;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     color: var(--subtitulo);
 }
