@@ -5,8 +5,8 @@
     --corquarta: rgb(231, 242, 239);
     --texto: rgb(255, 255, 255);
     --caixas: rgb(112, 137, 147);
-    --titulo: rgb(25, 24, 59);
-    --subtitulo: rgb(231, 242, 239);
+    --subtitulo: rgb(25, 24, 59);
+    --titulo: rgb(231, 242, 239);
 }
 
 .archivo-black-regular {
@@ -19,7 +19,7 @@
 body{
     padding: 0;
     margin: 0;
-    color: var(--texto);
+    color: var(--titulo);
     background-color: var(--corquarta);
     font-family: "Delius", cursive;
 }
@@ -27,7 +27,7 @@ body{
 header{
     text-align: center;
     font-weight: bold;
-    background-color: var(--corquarta);
+    background-color: var(--corprincipal);
     padding: 2%;
     font-size: 190%;
 }
