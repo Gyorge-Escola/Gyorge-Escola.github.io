@@ -21,8 +21,10 @@ body{
 }
 
 header{
-    /*font-family: "Delius", cursive;*/
-    font-style:initial;
+    align-items: center;
+    justify-items: center;
+    font-family: "Delius", cursive;
+    font-weight: bold;
     background-color: rgb(25, 24, 59);
     padding: 1%;
     font-size: 190%;
