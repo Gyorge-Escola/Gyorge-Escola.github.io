@@ -44,9 +44,15 @@ header{
     color: var(--subtitulo);
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+
+/* Cada div de materia*/
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--corsecundaria);
+    padding: 2%;
+    border-radius: 20px;
 }
 
 img{
@@ -58,12 +64,7 @@ img{
     margin-bottom: 4%;
 }
 
-/* Cada div de materia*/
-
-.conteudo{
-    display: flex;
-    flex-direction: row;
-    background-color: var(--corsecundaria);
-    padding: 2%;
-    border-radius: 20px;
+a{
+    text-decoration: none;
+    color: inherit;
 }
