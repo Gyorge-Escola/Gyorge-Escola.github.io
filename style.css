@@ -22,6 +22,7 @@ body{
 
 header{
     font-family: "Delius", cursive;
+    font-style:oblique;
     background-color: rgb(25, 24, 59);
     padding: 1%;
     font-size: 190%;
