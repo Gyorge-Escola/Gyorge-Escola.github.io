@@ -37,6 +37,7 @@ header{
 
 #Principal{
     margin: 5%;
+    gap: 50px;
     justify-items: center;
     align-items: center;
     display: grid;
