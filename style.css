@@ -47,6 +47,11 @@ header{
 
 /* Cada div de materia*/
 
+.materia{
+    justify-items: center;
+    align-items: center;
+}
+
 .conteudo{
     display: flex;
     flex-direction: column;
