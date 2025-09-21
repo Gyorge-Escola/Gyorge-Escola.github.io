@@ -1,3 +1,5 @@
+/* Definição */
+
 :root {
     --corprincipal: rgb(25, 24, 59);
     --corsecundaria: rgb(112, 137, 147);
@@ -15,6 +17,7 @@
   font-style: normal;
 }
 
+/* Geral */
 
 body{
     padding: 0;
@@ -40,6 +43,12 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     color: var(--subtitulo);
 }
+
+a{
+    text-decoration: none;
+}
+
+/* Cada div de materia*/
 
 .conteudo{
     display: flex;
