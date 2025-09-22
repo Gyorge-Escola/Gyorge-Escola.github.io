@@ -11,12 +11,6 @@
     --titulo: rgb(255, 255, 255);
 }
 
-.archivo-black-regular {
-  
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* Geral */
 
 body{
@@ -45,6 +39,9 @@ header{
     color: var(--subtitulo);
 }
 
+#home{
+    font-size: 100%;
+}
 
 /* Cada div de materia*/
 
