@@ -48,6 +48,11 @@ header{
 
 /* Cada div de materia*/
 
+h3{
+    z-index: -1;
+    position: relative;
+}
+
 .materia{
     justify-items: center;
     align-items: center;
