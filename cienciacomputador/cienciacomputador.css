@@ -1,6 +1,89 @@
-body{
-    color: rgb(0, 0, 0);
-    padding: 0;
-    margin: 0;
+/* Definição */
+
+:root {
+    --corprincipal: rgb(25, 24, 59);
+    --corsecundaria: rgb(112, 137, 147);
+    --corterceira: rgb(161, 194, 189);
+    --corquarta: rgb(231, 242, 239);
+    --texto: rgb(255, 255, 255);
+    --caixas: rgb(112, 137, 147);
+    --subtitulo: rgb(25, 24, 59);
+    --titulo: rgb(231, 242, 239);
 }
 
+.archivo-black-regular {
+  
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Geral */
+
+body{
+    padding: 0;
+    margin: 0;
+    color: var(--titulo);
+    background-color: var(--corquarta);
+    font-family: "Delius", cursive;
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--corprincipal);
+    padding: 2%;
+    font-size: 190%;
+}
+
+#Principal{
+    margin: 5%;
+    gap: 5%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    color: var(--subtitulo);
+}
+
+
+/* Cada div de materia*/
+
+.materia{
+    justify-items: center;
+    align-items: center;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caixas);
+    padding: 2%;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    transition: background-color 0.3s ;
+    transition: width 0.3s ;
+    transition: margin-left 0.1s ;
+}
+
+.conteudo:hover{
+    margin-left: -5%;
+    width: 110%;
+    height: 110%;
+    background-color: var(--corterceira);
+    transition: background-color 0.3s ;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
