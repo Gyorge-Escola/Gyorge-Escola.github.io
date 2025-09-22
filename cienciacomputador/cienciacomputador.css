@@ -66,8 +66,7 @@ h3{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    transition: background-color 0.3s ;
-    transition: color 0.3s ;
+    transition: color background-color 0.3s ;
     color: var(--texto);
 }
 
@@ -76,8 +75,7 @@ h3{
     width: 110%;
     height: 110%;
     background-color: var(--corterceira);
-    transition: color 0.3s ;
-    transition: background-color 0.3s ;
+    transition: color background-color 0.3s ;
     color: var(--caixas);
 }
 
