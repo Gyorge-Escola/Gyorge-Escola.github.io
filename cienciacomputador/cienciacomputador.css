@@ -69,6 +69,7 @@ h3{
     transition: background-color 0.3s ;
     transition: width 0.3s ;
     transition: margin-left 0.1s ;
+    color: var(--texto);
 }
 
 .conteudo:hover{
@@ -77,6 +78,7 @@ h3{
     height: 110%;
     background-color: var(--corterceira);
     transition: background-color 0.3s ;
+    color: var(--caixas);
 }
 
 img{
@@ -91,8 +93,4 @@ img{
 a{
     text-decoration: none;
     color: inherit;
-}
-
-p{
-    color: var(--texto);
 }
