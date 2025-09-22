@@ -64,10 +64,11 @@ header{
     transition: background-color 0.3s ;
     transition: width 0.3s ;
     transition: margin-left 0.1s ;
+    z-index: 100;
 }
 
 .conteudo:hover{
-    margin-left: -5%;
+    margin: -5%;
     width: 110%;
     height: 110%;
     background-color: var(--corterceira);
