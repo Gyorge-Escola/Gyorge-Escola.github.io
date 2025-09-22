@@ -41,7 +41,7 @@ header{
     justify-items: center;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     color: var(--subtitulo);
 }
 
