@@ -6,7 +6,7 @@
     --corterceira: rgb(161, 194, 189);
     --corquarta: rgb(231, 242, 239);
     --texto: rgb(255, 255, 255);
-    --caixas: rgb(112, 137, 147);
+    --caixas: rgb(31, 31, 31);
     --subtitulo: rgb(139, 33, 33);
     --titulo: rgb(255, 255, 255);
 }
@@ -91,4 +91,8 @@ img{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+p{
+    color: var(--texto);
 }
