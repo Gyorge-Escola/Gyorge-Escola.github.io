@@ -66,9 +66,7 @@ h3{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    transition-property: background-color color;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
+    transition: all 1s ease-in-out;
     color: var(--texto);
 }
 
@@ -77,9 +75,7 @@ h3{
     width: 110%;
     height: 110%;
     background-color: var(--corterceira);
-    transition-property: background-color color;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
+    transition: all 1s ease-in-out;
     color: var(--caixas);
 }
 
