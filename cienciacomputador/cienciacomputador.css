@@ -50,6 +50,7 @@ header{
 
 h3{
     z-index: -50;
+    position:relative;
 }
 
 .slide{
