@@ -82,7 +82,7 @@ h3{
 img{
     width: 80%;
     aspect-ratio: 6 / 4; 
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
     margin-top: 5%;
