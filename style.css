@@ -61,17 +61,17 @@ header{
     border-radius: 20px;
     justify-items: center;
     align-items: center;
-    transition: background-color 0.3s ;
-    transition: width 0.3s ;
-    transition: margin-left 0.1s ;
+    transition: all 0.3s ease-in-out;
+    color: var(--texto);
 }
 
 .conteudo:hover{
-    margin-left: -5%;
+    margin: -5%;
     width: 110%;
     height: 110%;
     background-color: var(--corterceira);
-    transition: background-color 0.3s ;
+    transition: all 0.3s ease-in-out;
+    color: var(--caixas);
 }
 
 img{
