@@ -26,4 +26,10 @@ function divisao(n,n1){
     return n % n1
 }
 
-alert(letra1("palavra"));
+function maiusculo(l){
+    return l.toUpperCase()
+}
+
+alert(saudacao())
+alert(quadrado(7))
+alert(bemvindo("Fabio"))
