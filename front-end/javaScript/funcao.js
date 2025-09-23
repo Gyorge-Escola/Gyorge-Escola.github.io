@@ -7,7 +7,7 @@ function quadrado(n){
 }
 
 function bemvindo(nome){
-    return nome + "Bem-Vindo"
+    return nome + " Bem-Vindo"
 }
 
 function soma3(n1,n2,n3){
