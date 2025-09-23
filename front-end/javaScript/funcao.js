@@ -18,4 +18,8 @@ function idadeEmDias(n){
     return n*365
 }
 
-alert(saudacao());
+function letra1(l){
+    return l[0]
+}
+
+alert(letra1("palavra"));
