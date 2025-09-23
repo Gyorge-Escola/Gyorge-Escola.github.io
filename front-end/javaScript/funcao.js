@@ -33,3 +33,7 @@ function maiusculo(l){
 alert(saudacao())
 alert(quadrado(7))
 alert(bemvindo("Fabio"))
+alert(soma3(1,5,6))
+alert(letra1("Palavra"))
+alert(divisao(4,8))
+alert(maiusculo("danylo"))
