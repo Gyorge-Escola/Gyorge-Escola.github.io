@@ -22,4 +22,8 @@ function letra1(l){
     return l[0]
 }
 
+function divisao(n,n1){
+    return n % n1
+}
+
 alert(letra1("palavra"));
