@@ -1,14 +1,10 @@
 /* Definição */
 
 :root {
-    --corprincipal: rgb(25, 24, 59);
-    --corsecundaria: rgb(112, 137, 147);
-    --corterceira: rgb(161, 194, 189);
-    --corquarta: rgb(231, 242, 239);
-    --texto: rgb(255, 255, 255);
-    --caixas: rgb(112, 137, 147);
-    --subtitulo: rgb(25, 24, 59);
-    --titulo: rgb(231, 242, 239);
+    --corprincipal: rgba(46, 0, 105, 0.356);
+    --corsecundaria: rgba(72, 12, 151, 0.507);
+    --corquarta: rgb(255, 255, 255);
+    --titulo: rgb(95, 23, 177);
 }
 
 .archivo-black-regular {
@@ -23,7 +19,9 @@ body{
     padding: 0;
     margin: 0;
     color: var(--titulo);
-    background-color: var(--corquarta);
+    background-image: url(./fundo.gif);
+    background-size:cover;
+    background-attachment: fixed;
     font-family: "Delius", cursive;
 }
 
@@ -41,12 +39,16 @@ header{
     justify-items: center;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    color: var(--subtitulo);
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    color: var(--corquarta);
 }
 
 
 /* Cada div de materia*/
+
+p{
+    font-size: 120%;
+}
 
 h3{
     z-index: -1;
@@ -61,22 +63,22 @@ h3{
 .conteudo{
     display: flex;
     flex-direction: column;
-    background-color: var(--caixas);
+    background-color: var(--corsecundaria);
     padding: 2%;
     border-radius: 20px;
     justify-items: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
-    color: var(--texto);
+    color: var(--corquarta);
 }
 
 .conteudo:hover{
     margin: -5%;
     width: 110%;
     height: 110%;
-    background-color: var(--corterceira);
+    background-color: var(--corquarta);
     transition: all 0.3s ease-in-out;
-    color: var(--caixas);
+    color: var(--corsecundaria);
 }
 
 img{
