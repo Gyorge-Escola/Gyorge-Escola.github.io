@@ -5,13 +5,13 @@ function contagem(){
 }
 
 function contagemr(){
-    for (let i=10;i<=0;i--) {
+    for (let i=10;i>=0;i--) {
         alert("Número "+i)
     }
 }
 
 function pares(){
-    for (let i=0;i<=20;i+2) {
+    for (let i=0;i<=20;i= i+2) {
         alert("Número "+i)
     }
 }
