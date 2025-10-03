@@ -11,7 +11,7 @@ function contagemr(){
 }
 
 function pares(){
-    for (let i=10;i==0;i--) {
+    for (let i=0;i==20;i+2) {
         alert("Número "+i)
     }
 }
