@@ -9,3 +9,9 @@ function contagemr(){
         alert("Número "+i)
     }
 }
+
+function pares(){
+    for (let i=10;i==0;i--) {
+        alert("Número "+i)
+    }
+}
