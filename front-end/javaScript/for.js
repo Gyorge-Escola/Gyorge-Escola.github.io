@@ -17,7 +17,9 @@ function pares(){
 }
 
 function tabs(){
-    for (let i=0;i==20;i+2) {
-        alert("Número "+i)
+    let numero = 0
+    for (let i=0;i==100;i++) {
+        numero + i
     }
+    alert(i)
 }
