@@ -21,14 +21,12 @@ function tabs(){
     for (let i=0;i<=10;i++) {
         alert(numero*i)
     }
-    alert(numero)
 }
 
 function cem(){
     let numero = 0
     for (let i=0;i<=100;i++) {
         numero + i
-        console.log(i, numero)
     }
     alert(numero)
 }
