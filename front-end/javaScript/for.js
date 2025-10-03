@@ -21,5 +21,5 @@ function tabs(){
     for (let i=0;i==100;i++) {
         numero + i
     }
-    alert(i)
+    alert(numero)
 }
