@@ -16,11 +16,10 @@ function pares(){
     }
 }
 
-function tabuada(){
-    let numero = 0
-    for (let i=0;i==100;i++) {
-        numero + i
-        console.log(i, numero)
+function tabs(){
+    let numero = parseInt(prompt("Digite um número"))
+    for (let i=0;i==10;i++) {
+        alert(numero*i)
     }
     alert(numero)
 }
