@@ -1,14 +1,14 @@
 /* Definição */
 
 :root {
-    --corprincipal: rgb(3, 2, 26);
+    --corprincipal: rgb(133, 73, 5);
     --corsecundaria: rgb(112, 137, 147);
-    --corterceira: rgb(82, 0, 0);
-    --corquarta: rgb(44, 44, 44);
-    --texto: rgb(105, 4, 4);
-    --caixas: rgb(34, 34, 34);
-    --subtitulo: rgb(139, 33, 33);
-    --titulo: rgb(255, 255, 255);
+    --corterceira: rgb(255, 238, 0);
+    --corquarta: rgb(255, 255, 255);
+    --texto: rgb(0, 0, 0);
+    --caixas: rgb(231, 170, 2);
+    --subtitulo: rgb(0, 0, 0);
+    --titulo: rgb(70, 37, 0);
 }
 
 /* Geral */
